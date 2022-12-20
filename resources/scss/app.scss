@@ -1,7 +1,16 @@
 @import '~bootstrap/scss/bootstrap';
 
 
+header {
+    z-index: 99999;
+}
+
 main {
     min-height: 100vh;
     padding-top: 10rem;
+    padding-bottom: 3rem;
+
+    .train-details {
+        min-height: 200px;
+    }
 }
